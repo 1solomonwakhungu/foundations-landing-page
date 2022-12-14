@@ -8,3 +8,133 @@
 body{
     height: 100vh;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Heading section */
+.header{
+    background-color: #1f2937;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.right-link{
+    margin-left: auto;
+}
+
+.heading{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.image{
+    background-color: #3672c8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+}
+
+/* Information section */
+.information{
+    text-align: center;
+}
+
+.card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Quote section */
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em;
+}
+
+.quote-auth{
+    justify-self: flex-end
+}
+
+/* Call section */
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+.inner-action{
+    background-color: #3882f6;
+    padding: 1em;
+    border-radius: 8px;
+    color: white;
+}
+
+.action-button{
+    border: 2px solid white;
+}
+
+/* Footer section */
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
