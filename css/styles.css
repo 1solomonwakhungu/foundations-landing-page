@@ -10,7 +10,7 @@ body{
 }
 
 .full-width {
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -22,10 +22,14 @@ body{
 button {
     color: white;
     background-color: #3882f6;
-    padding: 10px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 2em;
+    padding-left: 2em;
     border-radius: 5px;
     font-weight: bold;
     border: none;
+    margin-top: 1em;
 }
 
 ul{
@@ -37,6 +41,22 @@ ul{
 a{
     text-decoration: none;
     color: white;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-logo {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 /* Heading section */
@@ -84,12 +104,15 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 32px;
+    margin-bottom: 1em;
 }
 
 .card-image{
-    height: 100px;
-    width: 100px;
-    border: 2px solid #3882f6;
+    height: 150px;
+    width: 75%;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
 }
 
 .card{
@@ -98,6 +121,11 @@ a{
     gap: 16px;
     justify-content: center;
     align-items: center;
+}
+
+.info-text {
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 /* Quote section */
@@ -111,7 +139,16 @@ a{
 }
 
 .quote-auth{
-    justify-self: flex-end
+    justify-self: flex-end;
+    font-weight: bold;
+    text-align: right;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
 }
 
 /* Call section */
